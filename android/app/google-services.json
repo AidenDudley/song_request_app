@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "250342195934",
+    "firebase_url": "https://song-request-app-d1b65.firebaseio.com",
+    "project_id": "song-request-app-d1b65",
+    "storage_bucket": "song-request-app-d1b65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250342195934:android:47ee1c34947afdbf",
+        "android_client_info": {
+          "package_name": "com.aidandudley.song_request_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250342195934-cfpmj7khr0omu2p37mmr6jt4rk5b01eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPMRe9HXemn_B7gJSW8meqeKEefOTgSCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250342195934-cfpmj7khr0omu2p37mmr6jt4rk5b01eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
+
 import 'Tutorials.dart';
+import 'package:provider/provider.dart';
+import 'auth.dart';
 
 class SettingsPage extends StatelessWidget {
 
@@ -35,21 +37,14 @@ class SettingsPage extends StatelessWidget {
                 },
             ),
 
-            new MaterialButton(
-              minWidth: 200,
-              color: Colors.indigo[900],
-              textColor: Colors.white,
-              child: Text(
-                'Logout',
-                style: TextStyle(fontSize: 20),
-              ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => MyApp())
-                  );
-                },
-            ),
+             SizedBox(height: 20.0),
+            RaisedButton(
+                child: Text("LOGOUT"),
+                onPressed: () async {
+                  await Provider.of<AuthService>(context).logout();
+
+                  //Navigator.pushReplacementNamed(context, "/");
+                })
 
             
 
